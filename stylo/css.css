@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer .nave-bar {
+  text-align: center;
+  padding: 2% 7%;
+}
+.footer .nave-bar a {
+  text-decoration: none;
+  font-size: 12px;
+  color: rgba(206, 8, 8, 0.65);
+  padding: 10px;
+}
+
+:root {
+  --color-button: rgb(76,181,249);
+  --border-color: rgba(0, 0, 0, 0.219);
+}
+
+a, p {
+  font-size: 0.7rem;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .wrapper-content {
+  max-width: 900px;
+  height: 550px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.wrapper .wrapper-content .left {
+  position: relative;
+}
+.wrapper .wrapper-content .left .phone {
+  max-width: 100%;
+}
+.wrapper .wrapper-content .img-capa-phone {
+  position: absolute;
+  width: 100%;
+  max-width: 240px;
+  top: 25px;
+  left: 145px;
+  height: 510px;
+}
+.wrapper .wrapper-content .rigth {
+  margin-right: 100px;
+}
+.wrapper .wrapper-content .rigth form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 280px;
+  padding: 20px 40px;
+  margin-top: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
+.wrapper .wrapper-content .rigth form input {
+  width: 260px;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
+.wrapper .wrapper-content .rigth form input::-moz-placeholder {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.655);
+}
+.wrapper .wrapper-content .rigth form input::placeholder {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.655);
+}
+.wrapper .wrapper-content .rigth form .logo {
+  width: 190px;
+  margin: 20px 0;
+}
+.wrapper .wrapper-content .rigth form .btn {
+  outline: none;
+  border: 0;
+  background-color: var(--color-button);
+  margin: 15px 0;
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: #fff;
+  font-weight: bold;
+}
+.wrapper .wrapper-content .rigth form .btn:hover {
+  background-color: rgb(47, 164, 242);
+}
+.wrapper .wrapper-content .rigth form .separation {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.679);
+  margin: 18px 0;
+}
+.wrapper .wrapper-content .rigth form .separation .traco1 {
+  background-color: var(--border-color);
+  width: 112px;
+  height: 1px;
+}
+.wrapper .wrapper-content .rigth form .separation .text {
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+.wrapper .wrapper-content .rigth form .links-logins {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper .wrapper-content .rigth form .links-logins .facebook {
+  display: flex;
+  align-items: center;
+}
+.wrapper .wrapper-content .rigth form .links-logins .facebook .login-face {
+  color: rgb(56, 81, 149);
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.wrapper .wrapper-content .rigth form .links-logins .facebook img {
+  width: 20px;
+  margin-right: 10px;
+}
+.wrapper .wrapper-content .rigth form .links-logins .password {
+  margin: 15px 0 0 10px;
+}
+.wrapper .wrapper-content .rigth form .links-logins .password .esqueceu-senha {
+  text-decoration: none;
+  color: rgb(56, 81, 133);
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+}
+.wrapper .wrapper-content .rigth .cadastre {
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  margin-top: 8px;
+}
+.wrapper .wrapper-content .rigth .cadastre p {
+  font-size: 14px;
+  text-align: center;
+}
+.wrapper .wrapper-content .rigth .cadastre p a {
+  color: rgb(0, 149, 246);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.wrapper .wrapper-content .rigth .apps {
+  text-align: center;
+  margin: 5px 0;
+}
+.wrapper .wrapper-content .rigth .apps .loja {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.wrapper .wrapper-content .rigth .apps .loja img {
+  width: 107px;
+  height: 35px;
+}
+.wrapper .wrapper-content .rigth .apps .loja .img-micro {
+  width: 107px;
+  height: 35px;
+}
+.wrapper .footer .nave-bar {
+  text-align: center;
+  padding: 2% 7%;
+}
+.wrapper .footer .nave-bar a {
+  text-decoration: none;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.65);
+  padding: 10px;
+}
+
+@media screen and (max-width: 920px) {
+  .wrapper .left {
+    display: none;
+  }
+  .wrapper .wrapper-content .rigth {
+    margin: 0;
+  }
+}/*# sourceMappingURL=css.css.map */
